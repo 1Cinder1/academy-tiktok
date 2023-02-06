@@ -1,0 +1,27 @@
+logger:
+  savePath: 'log'
+  maxSize: 5
+  maxAge: 400
+  maxBackups: 1000
+  isCompress: true
+  logLevel: 'debug'
+
+database:
+  mysql:
+    addr: 127.0.0.1
+    port: 3306
+    username: root
+    password: 'liao20031103'
+    db: douyin
+    charset: utf8mb4
+    connMaxIdleTime: '180s'
+    connMaxLifeTime: '1800s'
+    maxIdleConns: 100
+    maxOpenConns: 500
+  redis:
+    addr: 127.0.0.1
+    port: 6379
+    username: ''
+    password:
+    db: 0
+    poolSize: 10000
