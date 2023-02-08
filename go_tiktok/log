@@ -6,3 +6,75 @@
 [2023-02-06 17:21:27.791]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/logger.go:60	initialize logger successfully!
 [2023-02-06 17:21:27.803]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/database.go:58	initialize redis client successfully!
 [2023-02-06 17:21:27.806]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/database.go:35	initialize mysql successful
+[2023-02-08 17:28:04.662]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/logger.go:60	initialize logger successfully!
+[2023-02-08 17:28:04.685]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/database.go:58	initialize redis client successfully!
+[2023-02-08 17:28:04.700]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/database.go:35	initialize mysql successful
+[2023-02-08 17:29:21.542]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/app/internal/middleware/logger.go:23	/api/user/getuser	{"status": 404, "method": "GET", "path": "/api/user/getuser", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": "0s"}
+[2023-02-08 17:29:24.945]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/app/internal/middleware/logger.go:23	/api/user/getuser	{"status": 400, "method": "POST", "path": "/api/user/getuser", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": "370.4µs"}
+[2023-02-08 17:29:35.301]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/app/internal/middleware/logger.go:23	/api/user/getuser	{"status": 400, "method": "POST", "path": "/api/user/getuser", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": "0s"}
+[2023-02-08 17:29:44.401]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/app/internal/middleware/logger.go:23	/api/user/getuser	{"status": 400, "method": "POST", "path": "/api/user/getuser", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": "0s"}
+[2023-02-08 17:30:24.239]	[31mERROR[0m	D:/academy-tiktok/go_tiktok/app/serivce/user/getuser/internal/getuser.go:113	query mysql record failed.	{"error": "Error 1054 (42S22): Unknown column 'follow.user_id' in 'order clause'", "table": "follow_subject"}
+[2023-02-08 17:30:24.239]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/app/internal/middleware/logger.go:23	/api/user/getuser	{"status": 500, "method": "POST", "path": "/api/user/getuser", "query": "token=12&user_id=1", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": "14.9203ms"}
+[2023-02-08 17:42:13.464]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/logger.go:60	initialize logger successfully!
+[2023-02-08 17:42:13.473]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/database.go:58	initialize redis client successfully!
+[2023-02-08 17:42:13.476]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/database.go:35	initialize mysql successful
+[2023-02-08 17:42:16.620]	[31mERROR[0m	D:/academy-tiktok/go_tiktok/app/serivce/user/getuser/internal/getuser.go:113	query mysql record failed.	{"error": "Error 1054 (42S22): Unknown column 'follow.user_id' in 'order clause'", "table": "follow_subject"}
+[2023-02-08 17:42:16.621]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/app/internal/middleware/logger.go:23	/api/user/getuser	{"status": 500, "method": "POST", "path": "/api/user/getuser", "query": "token=12&user_id=1", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": "4.7103ms"}
+[2023-02-08 17:44:33.233]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/logger.go:60	initialize logger successfully!
+[2023-02-08 17:44:33.255]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/database.go:58	initialize redis client successfully!
+[2023-02-08 17:44:33.257]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/database.go:35	initialize mysql successful
+[2023-02-08 17:44:36.851]	[31mERROR[0m	D:/academy-tiktok/go_tiktok/app/serivce/user/getuser/internal/getuser.go:113	query mysql record failed.	{"error": "Error 1054 (42S22): Unknown column 'follow.user_id' in 'order clause'", "table": "follow_subject"}
+[2023-02-08 17:44:36.851]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/app/internal/middleware/logger.go:23	/api/user/getuser	{"status": 500, "method": "POST", "path": "/api/user/getuser", "query": "token=12&user_id=1", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": "6.0615ms"}
+[2023-02-08 17:49:49.662]	[31mERROR[0m	D:/academy-tiktok/go_tiktok/app/serivce/user/getuser/internal/getuser.go:113	query mysql record failed.	{"error": "Error 1054 (42S22): Unknown column 'follow.user_id' in 'order clause'", "table": "follow_subject"}
+[2023-02-08 17:49:49.662]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/app/internal/middleware/logger.go:23	/api/user/getuser	{"status": 500, "method": "POST", "path": "/api/user/getuser", "query": "token=12&user_id=1", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": "17.6369ms"}
+[2023-02-08 17:50:08.763]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/logger.go:60	initialize logger successfully!
+[2023-02-08 17:50:08.779]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/database.go:58	initialize redis client successfully!
+[2023-02-08 17:50:08.781]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/database.go:35	initialize mysql successful
+[2023-02-08 17:50:09.935]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/logger.go:60	initialize logger successfully!
+[2023-02-08 17:50:09.952]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/database.go:58	initialize redis client successfully!
+[2023-02-08 17:50:09.958]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/database.go:35	initialize mysql successful
+[2023-02-08 17:50:09.960]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/app/serivce/user/getuser/router/router.go:22	initialize routers successfully!
+[2023-02-08 17:50:37.103]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/logger.go:60	initialize logger successfully!
+[2023-02-08 17:50:37.113]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/database.go:58	initialize redis client successfully!
+[2023-02-08 17:50:37.115]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/database.go:35	initialize mysql successful
+[2023-02-08 17:53:36.754]	[31mERROR[0m	D:/academy-tiktok/go_tiktok/app/serivce/user/getuser/internal/getuser.go:114	query mysql record failed.	{"error": "Error 1054 (42S22): Unknown column 'follow.user_id' in 'order clause'", "table": "follow_subject"}
+[2023-02-08 17:53:36.754]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/app/internal/middleware/logger.go:23	/api/user/getuser	{"status": 500, "method": "POST", "path": "/api/user/getuser", "query": "token=12&user_id=1", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": "3.0121ms"}
+[2023-02-08 18:01:32.561]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/logger.go:60	initialize logger successfully!
+[2023-02-08 18:01:32.570]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/database.go:58	initialize redis client successfully!
+[2023-02-08 18:01:32.572]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/database.go:35	initialize mysql successful
+[2023-02-08 18:01:36.013]	[31mERROR[0m	D:/academy-tiktok/go_tiktok/app/serivce/user/getuser/internal/getuser.go:113	query mysql record failed.	{"error": "Error 1054 (42S22): Unknown column 'follow.user_id' in 'order clause'", "table": "follow_subject"}
+[2023-02-08 18:01:36.013]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/app/internal/middleware/logger.go:23	/api/user/getuser	{"status": 500, "method": "POST", "path": "/api/user/getuser", "query": "token=12&user_id=1", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": "12.94ms"}
+[2023-02-08 18:06:32.722]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/logger.go:60	initialize logger successfully!
+[2023-02-08 18:06:32.732]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/database.go:58	initialize redis client successfully!
+[2023-02-08 18:06:32.734]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/database.go:35	initialize mysql successful
+[2023-02-08 18:06:36.225]	[31mERROR[0m	D:/academy-tiktok/go_tiktok/app/serivce/user/getuser/internal/getuser.go:113	query mysql record failed.	{"error": "Error 1054 (42S22): Unknown column 'follow.user_id' in 'order clause'", "table": "follow_subject"}
+[2023-02-08 18:06:36.226]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/app/internal/middleware/logger.go:23	/api/user/getuser	{"status": 500, "method": "POST", "path": "/api/user/getuser", "query": "token=12&user_id=1", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": "13.4546ms"}
+[2023-02-08 18:09:27.574]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/logger.go:60	initialize logger successfully!
+[2023-02-08 18:09:27.592]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/database.go:58	initialize redis client successfully!
+[2023-02-08 18:09:27.592]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/database.go:35	initialize mysql successful
+[2023-02-08 18:09:31.628]	[31mERROR[0m	D:/academy-tiktok/go_tiktok/app/serivce/user/getuser/internal/getuser.go:114	query mysql record failed.	{"error": "Error 1054 (42S22): Unknown column 'id' in 'field list'", "table": "follow_subject"}
+[2023-02-08 18:09:31.628]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/app/internal/middleware/logger.go:23	/api/user/getuser	{"status": 500, "method": "POST", "path": "/api/user/getuser", "query": "token=12&user_id=1", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": "3.7953ms"}
+[2023-02-08 18:09:57.853]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/logger.go:60	initialize logger successfully!
+[2023-02-08 18:09:57.865]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/database.go:58	initialize redis client successfully!
+[2023-02-08 18:09:57.867]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/database.go:35	initialize mysql successful
+[2023-02-08 18:10:01.457]	[31mERROR[0m	D:/academy-tiktok/go_tiktok/app/serivce/user/getuser/internal/getuser.go:114	query mysql record failed.	{"error": "Error 1146 (42S02): Table 'douyin.user_subjects' doesn't exist", "table": "follow_subject"}
+[2023-02-08 18:10:01.457]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/app/internal/middleware/logger.go:23	/api/user/getuser	{"status": 500, "method": "POST", "path": "/api/user/getuser", "query": "token=12&user_id=1", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": "11.3571ms"}
+[2023-02-08 18:12:08.732]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/logger.go:60	initialize logger successfully!
+[2023-02-08 18:12:08.748]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/database.go:58	initialize redis client successfully!
+[2023-02-08 18:12:08.751]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/database.go:35	initialize mysql successful
+[2023-02-08 18:12:12.881]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/app/internal/middleware/logger.go:23	/api/user/getuser	{"status": 200, "method": "POST", "path": "/api/user/getuser", "query": "token=12&user_id=1", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": "5.076ms"}
+[2023-02-08 18:16:08.867]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/logger.go:60	initialize logger successfully!
+[2023-02-08 18:16:08.881]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/database.go:58	initialize redis client successfully!
+[2023-02-08 18:16:08.884]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/database.go:35	initialize mysql successful
+[2023-02-08 18:16:13.450]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/app/internal/middleware/logger.go:23	/api/user/getuser	{"status": 200, "method": "POST", "path": "/api/user/getuser", "query": "token=12&user_id=1", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": "2.9664ms"}
+[2023-02-08 18:16:57.401]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/logger.go:60	initialize logger successfully!
+[2023-02-08 18:16:57.411]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/database.go:58	initialize redis client successfully!
+[2023-02-08 18:16:57.413]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/database.go:35	initialize mysql successful
+[2023-02-08 18:17:08.811]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/logger.go:60	initialize logger successfully!
+[2023-02-08 18:17:08.822]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/database.go:58	initialize redis client successfully!
+[2023-02-08 18:17:08.824]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/database.go:35	initialize mysql successful
+[2023-02-08 18:17:11.457]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/app/internal/middleware/logger.go:23	/api/user/getuser	{"status": 200, "method": "POST", "path": "/api/user/getuser", "query": "token=12&user_id=1", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": "12.1453ms"}
+[2023-02-08 18:17:44.946]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/logger.go:60	initialize logger successfully!
+[2023-02-08 18:17:44.956]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/database.go:58	initialize redis client successfully!
+[2023-02-08 18:17:44.960]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/database.go:35	initialize mysql successful
+[2023-02-08 18:17:52.180]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/app/internal/middleware/logger.go:23	/api/user/getuser	{"status": 200, "method": "POST", "path": "/api/user/getuser", "query": "token=12&user_id=47", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": "2.0017ms"}
