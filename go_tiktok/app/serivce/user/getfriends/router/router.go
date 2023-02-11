@@ -19,7 +19,7 @@ func InitRouter() *gin.Engine {
 		routerGroup.InitUserSignRouter(publicGroup)
 	}
 
-	r.Run(":8080")
+	r.Run(":8081")
 	global.Logger.Info("initialize routers successfully!")
 
 	return r
