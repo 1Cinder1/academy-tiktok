@@ -2,7 +2,7 @@ package router
 
 import (
 	"github.com/gin-gonic/gin"
-	"go_tiktok/app/serivce/user/getfriends"
+	"go_tiktok/app/serivce/user/getfans"
 )
 
 type UserRouter struct{}
@@ -10,7 +10,7 @@ type UserRouter struct{}
 func (r *UserRouter) InitUserSignRouter(router *gin.RouterGroup) gin.IRouter {
 	userRouter := router.Group("/user")
 	{
-		userRouter.POST("/getfriends", getfans.GetFriends)
+		userRouter.POST("/getfans", getfans.GetFans)
 		//userRouter.POST("/login", )
 	}
 

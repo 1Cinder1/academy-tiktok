@@ -1,7 +1,7 @@
-package main
+package getfans
 
 import (
-	"go_tiktok/app/serivce/user/getfriends/router"
+	"go_tiktok/app/serivce/user/getfans/router"
 	"go_tiktok/boot"
 )
 
