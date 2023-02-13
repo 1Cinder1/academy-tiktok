@@ -194,3 +194,16 @@
 [2023-02-11 22:19:18.078]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/database.go:58	initialize redis client successfully!
 [2023-02-11 22:19:18.086]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/database.go:35	initialize mysql successful
 [2023-02-11 22:19:18.125]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/nacos.go:59	register service successfully!
+[2023-02-13 22:40:05.934]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/logger.go:60	initialize logger successfully!
+[2023-02-13 22:40:10.948]	[31mFATAL[0m	D:/academy-tiktok/go_tiktok/boot/database.go:53	connect to redis instance failed.	{"error": "dial tcp 127.0.0.1:6379: i/o timeout"}
+[2023-02-13 22:40:52.235]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/logger.go:60	initialize logger successfully!
+[2023-02-13 22:40:52.248]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/database.go:58	initialize redis client successfully!
+[2023-02-13 22:40:52.312]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/database.go:35	initialize mysql successful
+[2023-02-13 22:40:52.396]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/nacos.go:59	register service successfully!
+[2023-02-13 22:41:05.300]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/app/internal/middleware/logger.go:23	/api/user/getfriends	{"status": 200, "method": "POST", "path": "/api/user/getfriends", "query": "token=11&user_id=1", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": "7.651ms"}
+[2023-02-13 22:41:45.464]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/app/internal/middleware/logger.go:23	/api/user/getfriends	{"status": 200, "method": "POST", "path": "/api/user/getfriends", "query": "token=11&user_id=48", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": "664.4µs"}
+[2023-02-13 22:44:53.468]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/logger.go:60	initialize logger successfully!
+[2023-02-13 22:44:53.478]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/database.go:58	initialize redis client successfully!
+[2023-02-13 22:44:53.484]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/database.go:35	initialize mysql successful
+[2023-02-13 22:44:53.489]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/boot/nacos.go:59	register service successfully!
+[2023-02-13 22:45:00.860]	[34mINFO[0m	D:/academy-tiktok/go_tiktok/app/internal/middleware/logger.go:23	/api/user/getfriends	{"status": 200, "method": "POST", "path": "/api/user/getfriends", "query": "token=11&user_id=48", "ip": "::1", "user-agent": "PostmanRuntime/7.30.0", "errors": "", "cost": "14.9724ms"}

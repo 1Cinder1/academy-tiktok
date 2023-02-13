@@ -2,13 +2,13 @@ package getfans
 
 import (
 	"github.com/gin-gonic/gin"
-	"go_tiktok/app/serivce/user/getfriends/internal"
+	"go_tiktok/app/serivce/user/getfans/internal"
 
 	"net/http"
 	"strconv"
 )
 
-func GetFriends(c *gin.Context) {
+func GetFans(c *gin.Context) {
 	token := c.Query("token")
 	userId := c.Query("user_id")
 	id := 47
@@ -22,7 +22,7 @@ func GetFriends(c *gin.Context) {
 	}
 
 	userid, _ := strconv.ParseInt(userId, 10, 64)
-	err, user := internal.GetFriends(c, int(userid), id)
+	err, user := internal.GetFans(c, int(userid), id)
 	if err != nil {
 
 		if err.Error() == "internal err" {

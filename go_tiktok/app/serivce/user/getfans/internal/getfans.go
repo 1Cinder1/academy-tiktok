@@ -17,12 +17,12 @@ type User struct {
 	IsFollow      bool
 }
 
-func GetFriends(ctx context.Context, userId int, id int) (error, []User) {
+func GetFans(ctx context.Context, userId int, id int) (error, []User) {
 	follow := []model.FollowSubject{}
 	user1 := []User{}
 	err := global.MysqlDB.WithContext(ctx).
 		Table("follow").
-		Where("following_id = ? AND follower_id = ?", userId, id).
+		Where("following_id = ?", userId).
 		Find(&follow).Error
 	if err != nil {
 		if err != gorm.ErrRecordNotFound {
