@@ -15,12 +15,11 @@ func InitRouter() *gin.Engine {
 	routerGroup := new(Group)
 
 	publicGroup := r.Group("/api")
-	publicGroup.Use(middleware.JWTAuthMiddleware())
 	{
 		routerGroup.InitUserSignRouter(publicGroup)
 	}
 
-	r.Run(":8081")
+	r.Run(":8082")
 	global.Logger.Info("initialize routers successfully!")
 
 	return r

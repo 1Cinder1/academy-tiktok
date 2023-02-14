@@ -25,3 +25,10 @@ database:
     password:
     db: 0
     poolSize: 10000
+
+middleware:
+  jwt:
+    secretKey: MSR2pH^N6dqqQ5Ns5x!eF4YWVpwzmb3@8RzphRFbEkRwLEra86v3LCB%PvGx$a$L
+    expiresTime: 604800
+    bufferTime: 86400
+    issuer: 'issuer'
