@@ -14,7 +14,7 @@ func InitRouter() *gin.Engine {
 
 	routerGroup := new(Group)
 
-	publicGroup := r.Group("/api")
+	publicGroup := r.Group("/douyin")
 	{
 		routerGroup.InitUserSignRouter(publicGroup)
 	}
