@@ -15,7 +15,7 @@ func AddFollower(ctx context.Context, id int, to_user_id int) error {
 		FollowingId:  to_user_id,
 		FollowStatus: 1,
 	}
-	err := global.MysqlDB.Create(&follow).Error
+	err := global.MysqlDB.WithContext(ctx).Table("favourite").Create(&follow).Error
 	if err != nil {
 		if err != gorm.ErrRecordNotFound {
 			global.Logger.Error("query mysql record failed.",
@@ -34,7 +34,7 @@ func DeleteFollower(ctx context.Context, id int, to_user_id int) error {
 		FollowerId:  id,
 		FollowingId: to_user_id,
 	}
-	err := global.MysqlDB.Delete(&follow).Error
+	err := global.MysqlDB.WithContext(ctx).Table("favourite").Delete(&follow).Error
 	if err != nil {
 		if err != gorm.ErrRecordNotFound {
 			global.Logger.Error("query mysql record failed.",
@@ -53,7 +53,7 @@ func CheckIsFollower(ctx context.Context, id int, toUserId int) bool {
 		FollowerId:  id,
 		FollowingId: toUserId,
 	}
-	err := global.MysqlDB.Where(&follow).Error
+	err := global.MysqlDB.WithContext(ctx).Table("favourite").Where(&follow).Error
 	if err != nil {
 		if err != gorm.ErrRecordNotFound {
 			global.Logger.Error("query mysql record failed.",
