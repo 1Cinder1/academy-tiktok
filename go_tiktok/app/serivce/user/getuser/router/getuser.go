@@ -10,8 +10,7 @@ type UserRouter struct{}
 func (r *UserRouter) InitUserSignRouter(router *gin.RouterGroup) gin.IRouter {
 	userRouter := router.Group("/user")
 	{
-		userRouter.POST("/getuser", getuser.GetUser)
-		//userRouter.POST("/login", )
+		userRouter.POST("", getuser.GetUser)
 	}
 
 	return userRouter

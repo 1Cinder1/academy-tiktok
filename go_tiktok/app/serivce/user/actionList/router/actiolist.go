@@ -2,17 +2,16 @@ package router
 
 import (
 	"github.com/gin-gonic/gin"
-	"go_tiktok/app/serivce/user/getfans"
+	"go_tiktok/app/serivce/user/actionList"
 )
 
 type UserRouter struct{}
 
 func (r *UserRouter) InitUserSignRouter(router *gin.RouterGroup) gin.IRouter {
-	userRouter := router.Group("/user")
+	userRouter := router.Group("/publish")
 	{
-		userRouter.POST("/getfans", getfans.GetFans)
+		userRouter.POST("/list", actionList.GetVideoList)
 
-		//userRouter.POST("/login", )
 	}
 
 	return userRouter
